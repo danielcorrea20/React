@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+// Importar el componente galery
+// Exportar app por defecto
+// Definir la funcion app
+// Devolver la funcion gallery
+// Dentro de etiquetas div y header
+// Ambas con atributo className de la funcion app
+
+import Gallery from './Gallery.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Gallery />
       </header>
     </div>
   );
